@@ -10,12 +10,16 @@ Text Domain: astra-child
 Template: astra
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap');
+
 :root{
       --main-red-color: #D13239;
       --main-gray-color: #454545;
       --main-gray-color2: #5C5C5C;
 }
-
+body{
+     font-family: 'Montserrat', sans-serif;
+}
 .main-red-color{
      color: var(--main-red-color);
 }
@@ -36,7 +40,56 @@ Template: astra
 }
 #play-video-txt{
      text-shadow: 0px 3px 16px rgba(0, 0, 0, 0.99);
+     letter-spacing: 0.08em;
+     line-height: 60px;
+     font-size: 22px;
 }
 #carouselHome{
      height: 833px; 
+}
+#carouselHome {
+     padding-top: 210px;
+     background: url('/wp-content/uploads/2021/07/Prostokat-2@2x.png') center center / cover no-repeat;
+}
+.f-semibold{
+     font-weight: 600;
+}
+#carouselHome  h2{
+font-size: 54px;
+letter-spacing: -0.02em;
+line-height: 60px;
+}
+#carouselHome h3{
+font-size: 32px;
+line-height: 45px;
+}
+
+#carouselHome > button{
+width: 33px;
+height: 28px;
+position: absolute;
+top: calc(50% - 28px);
+
+}
+#carouselHome .carousel-control-prev{
+     background-image: url('./assets/left-arrow.svg');
+       margin-left: 3%;
+}
+#carouselHome .carousel-control-next{
+     background-image: url('./assets/left-arrow.svg');
+     transform: rotate(180deg);
+   margin-right: 3%;
+}
+#carouselHome  .carousel-indicators button {
+    border-radius: 100% !important;
+    width: 13.32px !important;
+    height: 13.32px !important;
+}
+#carouselHome .carousel-indicators .active{
+  background-color: var(--main-red-color);
+}
+#carouselHome .carousel-indicators :not(.active){
+  background-color: #adadad;
+  opacity: 0.32;
+
 }
