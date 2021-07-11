@@ -11,14 +11,14 @@
                     <div class="container h-100 mx-auto">
                          <div class="row h-100 justify-content-around">
                               <div class="col-12 col-md-7">
-                                   <h2 class='main-gray-color fw-bold'>ENGAGED <span class='main-red-color'> EMPLOYEES. </span>
-                                        SEAMLESS <span class='main-red-color'> EXPERIENCE. </span>
-                                        SECURE <span class='main-red-color'> TECHNOLOGY. </span> </h2>
+                                   <h2 class='main-gray-color fw-bold'>ENGAGED <span class='main-red-color'> EMPLOYEES. </span><br>
+                                        SEAMLESS <span class='main-red-color'> EXPERIENCE. </span> <br>
+                                        SECURE <span class='main-red-color'> TECHNOLOGY. </span> <br> </h2>
                                    <h3 class='main-gray-color2 mt-3 f-semibold'>Trusted Managed IT Company</h3>
                               </div>
                               <div class="col-12 col-md-5 d-flex flex-column align-items-center mt-1">
-                                   <img class="d-block mx-auto" src="/wp-content/uploads/2021/07/Grupa-16@2x.png" alt="play-button">
-                                   <p id="play-video-txt" class="mt-3 text-center text-white fw-bold">PLAY THE VIDEO</p>
+                                   <img class="d-block mx-auto" id="play-button" src="/wp-content/uploads/2021/07/Grupa-16@2x.png" alt="play-button">
+                                   <p id="play-video-txt" class="mt-2 text-center text-white fw-bold">PLAY THE VIDEO</p>
                               </div>
                          </div>
 
@@ -28,11 +28,11 @@
 
           <?php } ?>
      </div>
-     
+
      <button class="carousel-control-prev" type="button" data-bs-target="#carouselHome" data-bs-slide="prev">
-         
+
      </button>
      <button class="carousel-control-next" type="button" data-bs-target="#carouselHome" data-bs-slide="next">
-         
+
      </button>
 </div>

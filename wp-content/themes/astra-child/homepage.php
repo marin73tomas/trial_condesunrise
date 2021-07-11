@@ -15,7 +15,8 @@ get_header(); ?>
 
 
      include_once('template_parts/home_carousel.php');
-
+     include_once('template_parts/contact_us_banner.php');
+    
      ?>
 
 

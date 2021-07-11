@@ -10,86 +10,196 @@ Text Domain: astra-child
 Template: astra
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;0,600;0,700;1,400&display=swap");
 
-:root{
-      --main-red-color: #D13239;
-      --main-gray-color: #454545;
-      --main-gray-color2: #5C5C5C;
+:root {
+  --main-red-color: #d13239;
+  --main-gray-color: #454545;
+  --main-gray-color2: #5c5c5c;
 }
-body{
-     font-family: 'Montserrat', sans-serif;
+body {
+  font-family: "Montserrat", sans-serif;
 }
-.main-red-color{
-     color: var(--main-red-color);
+.main-red-color {
+  color: var(--main-red-color);
 }
-.main-red-bg{
-     background-color: var(--main-red-color);
-}
-.main-gray-color{
-     color: var(--main-gray-color);
-}
-.main-gray-bg{
-     background-color: var(--main-gray-color);
-}
-.main-gray-color2{
-     color: var(--main-gray-color2);
-}
-.main-gray-bg2{
-     background-color: var(--main-gray-color2);
-}
-#play-video-txt{
-     text-shadow: 0px 3px 16px rgba(0, 0, 0, 0.99);
-     letter-spacing: 0.08em;
-     line-height: 60px;
-     font-size: 22px;
-}
-#carouselHome{
-     height: 833px; 
-}
-#carouselHome {
-     padding-top: 210px;
-     background: url('/wp-content/uploads/2021/07/Prostokat-2@2x.png') center center / cover no-repeat;
-}
-.f-semibold{
-     font-weight: 600;
-}
-#carouselHome  h2{
-font-size: 54px;
-letter-spacing: -0.02em;
-line-height: 60px;
-}
-#carouselHome h3{
-font-size: 32px;
-line-height: 45px;
-}
-
-#carouselHome > button{
-width: 33px;
-height: 28px;
-position: absolute;
-top: calc(50% - 28px);
-
-}
-#carouselHome .carousel-control-prev{
-     background-image: url('./assets/left-arrow.svg');
-       margin-left: 3%;
-}
-#carouselHome .carousel-control-next{
-     background-image: url('./assets/left-arrow.svg');
-     transform: rotate(180deg);
-   margin-right: 3%;
-}
-#carouselHome  .carousel-indicators button {
-    border-radius: 100% !important;
-    width: 13.32px !important;
-    height: 13.32px !important;
-}
-#carouselHome .carousel-indicators .active{
+.main-red-bg {
   background-color: var(--main-red-color);
 }
-#carouselHome .carousel-indicators :not(.active){
+.main-gray-color {
+  color: var(--main-gray-color);
+}
+.main-gray-bg {
+  background-color: var(--main-gray-color);
+}
+.main-gray-color2 {
+  color: var(--main-gray-color2);
+}
+.main-gray-bg2 {
+  background-color: var(--main-gray-color2);
+}
+#play-video-txt {
+  text-shadow: 0px 3px 16px rgba(0, 0, 0, 0.99);
+  letter-spacing: 0.08em;
+  line-height: 60px;
+  font-size: 22px;
+}
+#carouselHome {
+  height: 833px;
+}
+#carouselHome {
+  background: url("/wp-content/uploads/2021/07/Prostokat-2@2x.png") center
+    center / cover no-repeat;
+  padding-top: 210px;
+}
+
+.f-semibold {
+  font-weight: 600;
+}
+#carouselHome h2 {
+  font-size: 54px;
+  letter-spacing: -0.02em;
+  line-height: 60px;
+}
+#carouselHome h3 {
+  font-size: 32px;
+  line-height: 45px;
+}
+
+#carouselHome > button {
+  width: 33px;
+  height: 28px;
+  position: absolute;
+  top: calc(50% - 28px);
+}
+#carouselHome .carousel-control-prev {
+  background-image: url("./assets/left-arrow.svg");
+  margin-left: 3%;
+}
+#carouselHome .carousel-control-next {
+  background-image: url("./assets/left-arrow.svg");
+  transform: rotate(180deg);
+  margin-right: 3%;
+}
+#carouselHome .carousel-indicators button {
+  border-radius: 100% !important;
+  width: 13.32px !important;
+  height: 13.32px !important;
+}
+#carouselHome .carousel-indicators .active {
+  background-color: var(--main-red-color);
+}
+#carouselHome .carousel-indicators :not(.active) {
   background-color: #adadad;
   opacity: 0.32;
+}
+.contact-us-banner p {
+  font-size: 20px;
+  line-height: 33px;
+  text-align: left;
+}
 
+.contact-us-banner {
+  height: 130px;
+}
+.ast-container {
+  display: block;
+}
+.contact-us-banner a {
+  width: 243px;
+  font-size: 20px;
+  letter-spacing: 0.03em;
+  line-height: 60px;
+  height: 53px;
+}
+#ast-hf-menu-1 a {
+  font-size: 15px;
+  line-height: 40px;
+  color: #535353;
+}
+.ast-primary-header-bar,
+.ast-above-header-bar {
+  border: 0;
+}
+#phone-top {
+  font-size: 15px;
+  line-height: 40.03px;
+  text-align: left;
+  
+}
+#phone-top a{
+  color: #535353;
+}
+#search-top::before {
+  content: "";
+  width: 1px;
+  height: 22px;
+  background-color: #b5b5b5;
+}
+#search-top svg {
+  fill: #b5b5b5;
+}
+#contact-top {
+  width: 200px;
+  height: 53px;
+  background: #000;
+  border: 2px solid #000;
+}
+#contact-top a {
+  font-size: 16px;
+  letter-spacing: 0.03em;
+  line-height: 40.03px;
+}
+
+@media (max-width: 1024px) {
+  #carouselHome {
+    padding-top: 30px;
+  }
+  #carouselHome h2 {
+    font-size: 26px;
+
+    letter-spacing: -0.02em;
+    line-height: 29.27px;
+  }
+  #carouselHome h3 {
+    font-size: 18px;
+    line-height: 23px;
+  }
+  #play-button {
+    width: 106px;
+    height: 106px;
+  }
+  #play-video-txt {
+    display: none;
+  }
+  .contact-us-banner p {
+    font-size: 14px;
+    line-height: 22px;
+    text-align: center;
+  }
+  .contact-us-banner a {
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    line-height: 47.33px;
+  }
+  #carouselHome .carousel-indicators, .ast-site-title-wrap, #carouselHome > button{
+       display: none;
+  }
+  #carouselHome {
+       height: 486px;
+  }
+  .contact-us-banner{
+       height: 203px;
+  }
+  .contact-us-banner a{
+       margin: auto;
+  }
+  .custom-logo{
+     width: 107px;
+  }
+}
+.ast-mobile-svg.ast-menu-svg {
+    fill: #535353 !important;
+    height: 30px !important;
+    width: 30px !important;
 }
